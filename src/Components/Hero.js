@@ -1,11 +1,11 @@
 import "../styles.css";
-import Homepage from "../Components/Images/Homepage.jpg";
+import Doctor from "../Components/Images/Doctor.png";
 export default function Hero() {
   return (
     <div className="hero">
-      <img src={Homepage} alt="" />
+      <img src={Doctor} alt="" />
       <div className="hero-text">
-        <h2> hello </h2>
+        <h1> The Health Hub </h1>
       </div>
     </div>
   );

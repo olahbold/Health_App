@@ -4,10 +4,10 @@ import Navbar from "react-bootstrap/Navbar";
 
 function Navbars() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg"  className="Navbars">
       <Container>
         <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-        <Nav className="me-auto">
+        <Nav className="me-auto  nav_text">
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#features">Features</Nav.Link>
           <Nav.Link href="#pricing">Pricing</Nav.Link>
